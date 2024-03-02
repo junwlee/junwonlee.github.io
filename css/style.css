@@ -100,7 +100,7 @@ body {
 
 /* 인용구 스타일링 */
 #quote {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   padding: 20px;
