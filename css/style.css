@@ -1,0 +1,117 @@
+.hidden {
+  display: none;
+}
+
+/* 기본 바디 스타일링 */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  margin: 0;
+}
+
+/* 시계 스타일링 */
+#clock {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: white;
+}
+
+/* 로그인 폼 스타일링 */
+#login-form {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-form input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+#login-form input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+/* 인사말 스타일링 */
+#greeting {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 24px;
+  
+}
+
+/* 할 일 목록 스타일링 */
+#todo-form {
+  margin-bottom: 20px;
+}
+
+#todo-list {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+#todo-form input {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  margin: 10px 0;
+  color: white;
+}
+
+/* 날씨 정보 스타일링 */
+#weather {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  color: white;
+}
+
+/* 인용구 스타일링 */
+#quote {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+  text-align: right;
+}
+
+#quote span {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* 무지개 색상 그라디언트 */
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline;
+  font-style: italic;
+}
